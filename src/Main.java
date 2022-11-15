@@ -8,7 +8,7 @@ public class Main {
         int d = 15;
         int e = 9;
         int result = a * (b + (c - d * e));
-        System.out.println(result);
+        System.out.println("a * (b + (c - d * e)) = " + result);
         result = - result;
         System.out.println(result);
         System.out.println("" +
@@ -26,9 +26,8 @@ public class Main {
                 "");
         System.out.println("Задача 8:");
         int a1 = 723;
+        System.out.println("Дано трёхзначное число " + a1);
         int b1 = (a1 - a1 % 10) % 100 / 10;
         System.out.println(b1);
-
-
     }
 }
